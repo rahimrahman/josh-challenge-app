@@ -3416,9 +3416,9 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-"simple-hue-library@git+ssh://git@github.com:rahimrahman/simple-hue-library.git":
+"simple-hue-library@git+ssh://git@github.com:rahimrahman/simple-hue-library.git#update-light":
   version "0.0.2"
-  resolved "git+ssh://git@github.com:rahimrahman/simple-hue-library.git#e1064ebf46b098f45a6602b4ea4cb296e6592727"
+  resolved "git+ssh://git@github.com:rahimrahman/simple-hue-library.git#8ab4cd9dd5c5b874f3c1f191cc72f963de47d5e2"
   dependencies:
     axios "^0.16.2"
     lodash "^4.17.4"
