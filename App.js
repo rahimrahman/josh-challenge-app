@@ -135,15 +135,16 @@ export default class App extends Component {
                             tintColor={'#d3d3d3'}
                         />
                     </View>
-                    <View>
+                    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                         <Slider
                             minimumValue={0}
                             maximumValue={100}
                             value={lightOriginalBrightness}
                             onValueChange={(value) => this.onLightSwitchBrightnessChange(value)}
                             step={1}
-                            style={{ width: 100 }}
+                            style={{ width: 200 }}
                         />
+                        <Text>{lightOriginalBrightness}</Text>
                     </View>
                     {PlatformIOS && <View style={styles.lineSeparator} />}
                     <View style={[{ alignSelf: 'stretch', flexDirection: 'row' }, containerPlatformStyle]}>
